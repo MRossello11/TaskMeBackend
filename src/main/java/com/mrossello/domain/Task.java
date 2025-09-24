@@ -3,7 +3,7 @@ package com.mrossello.domain;
 import java.util.Objects;
 
 public class Task {
-    private Long id;
+    private String id;
     private String title;
     private Long createdAt;
     private boolean completed;
@@ -11,18 +11,18 @@ public class Task {
     public Task() {
     }
 
-    public Task(Long id, String title, Long createdAt, boolean completed) {
+    public Task(String id, String title, Long createdAt, boolean completed) {
         this.id = id;
         this.title = title;
         this.createdAt = createdAt;
         this.completed = completed;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

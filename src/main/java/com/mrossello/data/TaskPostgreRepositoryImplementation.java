@@ -29,7 +29,7 @@ public class TaskPostgreRepositoryImplementation implements TaskRepository {
     }
 
     @Override
-    public void deleteTask(Long id) {
+    public void deleteTask(String id) {
         taskJPARepository.deleteById(id);
     }
 }

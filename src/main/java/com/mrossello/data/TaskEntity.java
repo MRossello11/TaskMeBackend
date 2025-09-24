@@ -1,8 +1,6 @@
 package com.mrossello.data;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 import java.util.Objects;
@@ -11,7 +9,7 @@ import java.util.Objects;
 public class TaskEntity {
 
     @Id
-    private Long id;
+    private String id;
     private String title;
     private Long createdAt;
     private boolean completed;
@@ -19,18 +17,18 @@ public class TaskEntity {
     public TaskEntity() {
     }
 
-    public TaskEntity(Long id, String title, Long createdAt, boolean completed) {
+    public TaskEntity(String id, String title, Long createdAt, boolean completed) {
         this.id = id;
         this.title = title;
         this.createdAt = createdAt;
         this.completed = completed;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

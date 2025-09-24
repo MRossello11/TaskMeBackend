@@ -8,7 +8,7 @@ public interface TaskRepository {
     List<Task> getAllTasks();
     void createTask(Task task);
     void updateTask(Task task);
-    void deleteTask(Long id);
+    void deleteTask(String id);
 
     default Task toDomain(TaskEntity entity) {
         return new Task(
