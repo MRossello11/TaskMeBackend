@@ -1,4 +1,4 @@
-package com.mrossello.data;
+package com.mrossello.feature_tasks.data;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

@@ -1,6 +1,6 @@
-package com.mrossello.domain;
+package com.mrossello.feature_tasks.domain;
 
-import com.mrossello.data.TaskEntity;
+import com.mrossello.feature_tasks.data.TaskEntity;
 
 import java.util.List;
 

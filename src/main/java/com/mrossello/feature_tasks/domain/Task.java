@@ -1,4 +1,4 @@
-package com.mrossello.domain;
+package com.mrossello.feature_tasks.domain;
 
 import java.util.Objects;
 

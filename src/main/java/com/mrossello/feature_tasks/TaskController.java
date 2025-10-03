@@ -1,7 +1,7 @@
-package com.mrossello;
+package com.mrossello.feature_tasks;
 
-import com.mrossello.domain.Task;
-import com.mrossello.domain.TaskRepository;
+import com.mrossello.feature_tasks.domain.Task;
+import com.mrossello.feature_tasks.domain.TaskRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
